@@ -12,6 +12,21 @@
     "path": "pages/cart/cart",
     "style": {}
   }],
+  "subPackages": [
+    {
+      "root": "subpkg",
+      "pages": [{
+                    "path" : "goods_detail/goods_detail",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+            ]
+    }
+  ],
   "globalStyle": {
     "navigationBarTextStyle": "black",
     "navigationBarTitleText": "uni-app",
